@@ -1,0 +1,8 @@
+.holder{
+    border:2px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 20px;
+}
