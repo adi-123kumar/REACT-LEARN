@@ -1,11 +1,8 @@
 import './App.css';
 // import "./ProductList"
 // import ProductList from './ProductList';
-import List from "./List.jsx";
-
-import "./Holder.css";
-import Holder from "./Holder.jsx";
-
+// import ProductHolder from './ProductDetails/ProductHolder.jsx';
+import Events from "./EventListners/Events";
 
 // App component is the root component of all the component.
 function App() {
@@ -30,14 +27,25 @@ function App() {
 //    {/* <img src={url} className='image'></img> */}
 //   </>
 // );
-let features = ["aditya", "aman","chaman","amit"];
-return(
-  <>
-   <List names={features[0]} age={34}></List>
-   <List names={features[1]} age={12}></List>
-   <List names={features[2]} age={19}></List>
-  </>
-)
+// let features = ["aditya", "aman","chaman","amit"];
+// return(
+//   <>
+//    <List names={features[0]} age={34}></List>
+//    <List names={features[1]} age={12}></List>
+//    <List names={features[2]} age={19}></List>
+//   </>
+// )
+// Creating a product tab 
+// return (
+//   <div>
+//     <ProductHolder></ProductHolder>
+//   </div>
+// );
+
+// Learning the event listners in react
+return(<div>
+<Events></Events>
+</div>);
 }
 
 
